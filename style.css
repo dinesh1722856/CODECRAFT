@@ -1632,3 +1632,30 @@ body.dark .client-info p {
         font-size: 12px;
     }
 }
+/* ================= A11Y ADDITIONS (v2) ================= */
+
+/* Skip to content link */
+.skip-link {
+  position: absolute;
+  top: -48px;
+  left: 16px;
+  z-index: 2000;
+  padding: 10px 18px;
+  background: #5b5cff;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  transition: top .25s ease;
+}
+
+.skip-link:focus {
+  top: 12px;
+}
+
+/* Visible keyboard focus */
+:focus-visible {
+  outline: 2px solid #6366f1;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
