@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CodeCraft - Design, Develop, Deliver modern digital products.">
+    <title>CodeCraft | Software Design & Development</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ================= HEADER ================= -->
+    <header class="header" id="header">
+        <div class="container nav">
+            <a href="#home" class="brand">
+                <span class="brand-icon">&lt;/&gt;</span>
+                <span>
+                    <strong>Code<span>Craft</span></strong>
+                    <small>Design · Develop · Deliver</small>
+                </span>
+            </a>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <a href="#contact" class="nav-btn">Let's Talk <i class="fa-solid fa-arrow-right"></i></a>
+
+            <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <div class="hero-copy reveal">
+                    <p class="eyebrow">WELCOME TO CODECRAFT</p>
+
+                    <h1>We Design Software<br>
+                        That Makes <span>a Difference</span>
+                    </h1>
+
+                    <p class="hero-text">
+                        Creative design. Clean code. Real solutions. We build modern
+                        web applications that help businesses grow.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn primary">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#projects" class="btn outline">View Our Work</a>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div>
+                            <strong>10+</strong>
+                            <span>Projects Completed</span>
+                        </div>
+                        <div>
+                            <strong>5+</strong>
+                            <span>Happy Clients</span>
+                        </div>
+                        <div>
+                            <strong>1+</strong>
+                            <span>Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= ABOUT ================= -->
+        <section class="section about" id="about">
+            <div class="container about-grid">
+                <div class="about-copy reveal">
+                    <p class="eyebrow">ABOUT US</p>
+                    <h2>Turning Ideas Into<br><span>Digital Experiences</span></h2>
+                    <p>
+                        At CodeCraft, we combine design, technology, and strategy to
+                        create software solutions that are simple, scalable, and
+                        user-friendly. Our goal is to transform your ideas into
+                        meaningful digital products.
+                    </p>
+                    <a href="#services" class="small-btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="feature-grid">
+                    <article class="feature-card reveal">
+                        <div class="feature-icon"><i class="fa-solid fa-layer-group"></i></div>
+                        <div>
+                            <h3>User-Centric Design</h3>
+                            <p>Designs that users love and remember.</p>
+                        </div>
+                    </article>
+
+                    <article class="feature-card reveal">
+                        <div class="feature-icon"><i class="fa-solid fa-code"></i></div>
+                        <div>
+                            <h3>Clean & Scalable Code</h3>
+                            <p>Built for performance and future growth.</p>
+                        </div>
+                    </article>
+
+                    <article class="feature-card reveal">
+                        <div class="feature-icon"><i class="fa-solid fa-rocket"></i></div>
+                        <div>
+                            <h3>Innovative Solutions</h3>
+                            <p>Turning ideas into real-world products.</p>
+                        </div>
+                    </article>
+
+                    <article class="feature-card reveal">
+                        <div class="feature-icon"><i class="fa-solid fa-users"></i></div>
+                        <div>
+                            <h3>Dedicated Support</h3>
+                            <p>We're here even after launch.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= SERVICES ================= -->
+        <section class="section services" id="services">
+            <div class="container">
+                <div class="section-heading split reveal">
+                    <div>
+                        <p class="eyebrow">OUR SERVICES</p>
+                        <h2>What <span>We Do</span></h2>
+                    </div>
+                    <p>
+                        From concept to deployment, we offer end-to-end software design
+                        and development services to help your business go digital.
+                    </p>
+                </div>
+
+                <div class="service-grid">
+                    <article class="service-card reveal">
+                        <i class="fa-solid fa-desktop"></i>
+                        <h3>Web Development</h3>
+                        <p>Responsive and dynamic websites tailored to your needs.</p>
+                    </article>
+
+                    <article class="service-card reveal">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <h3>UI/UX Design</h3>
+                        <p>Beautiful and intuitive designs for better user experiences.</p>
+                    </article>
+
+                    <article class="service-card reveal">
+                        <i class="fa-solid fa-gear"></i>
+                        <h3>Custom Software</h3>
+                        <p>Powerful solutions for unique business needs.</p>
+                    </article>
+
+                    <article class="service-card reveal">
+                        <i class="fa-solid fa-cloud"></i>
+                        <h3>Consultation</h3>
+                        <p>Expert advice to turn your idea into a solid plan.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= PROCESS ================= -->
+        <section class="section process">
+            <div class="container">
+                <div class="section-heading split reveal">
+                    <div>
+                        <p class="eyebrow">OUR PROCESS</p>
+                        <h2>From Idea <span>to Impact</span></h2>
+                    </div>
+                    <p>We follow a simple and transparent process to bring your vision to life.</p>
+                </div>
+
+                <div class="process-grid">
+                    <div class="process-step reveal">
+                        <div class="process-icon purple"><i class="fa-regular fa-lightbulb"></i></div>
+                        <span>1. Discover</span>
+                        <p>Understand your goals<br>and requirements.</p>
+                    </div>
+
+                    <div class="process-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+
+                    <div class="process-step reveal">
+                        <div class="process-icon green"><i class="fa-regular fa-file-lines"></i></div>
+                        <span>2. Plan</span>
+                        <p>Create strategy and<br>design the roadmap.</p>
+                    </div>
+
+                    <div class="process-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+
+                    <div class="process-step reveal">
+                        <div class="process-icon blue"><i class="fa-solid fa-code"></i></div>
+                        <span>3. Develop</span>
+                        <p>Turn ideas into a working<br>product.</p>
+                    </div>
+
+                    <div class="process-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+
+                    <div class="process-step reveal">
+                        <div class="process-icon orange"><i class="fa-solid fa-rocket"></i></div>
+                        <span>4. Launch</span>
+                        <p>Deliver and grow<br>together.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= PROJECTS ================= -->
+        <section class="section projects" id="projects">
+            <div class="container">
+
+                <div class="section-heading split reveal">
+                    <div>
+                        <p class="eyebrow">OUR PROJECTS</p>
+                        <h2>Some of <span>Our Work</span></h2>
+                        <p class="projects-intro">
+                            Explore our latest digital experiences, creative websites,
+                            and innovative software solutions.
+                        </p>
+                    </div>
+
+                    <a href="#contact" class="outline-small">
+                        View All Projects
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="project-grid">
+
+                    <!-- FloxBath -->
+                    <a href="https://floxbath.com/" target="_blank" rel="noopener noreferrer"
+                        class="project-card reveal">
+                        <div class="project-image">
+                            <img src="https://image.thum.io/get/width/1200/crop/800/https://floxbath.com/"
+                                alt="FloxBath Website">
+
+                            <div class="project-overlay">
+                                <span>Visit Website</span>
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+                            <div>
+                                <h3>FloxBath</h3>
+                                <p>Bathroom & Lifestyle Website</p>
+                            </div>
+
+                            <span class="project-arrow">
+                                <i class="fa-solid fa-arrow-up-right"></i>
+                            </span>
+                        </div>
+                    </a>
+
+
+                    <!-- Kaefin -->
+                    <a href="https://kaefincoffee.com/" target="_blank" rel="noopener noreferrer"
+                        class="project-card reveal">
+                        <div class="project-image">
+                            <img src="https://image.thum.io/get/width/1200/crop/800/https://kaefincoffee.com/"
+                                alt="Kaefin Coffee Website">
+
+                            <div class="project-overlay">
+                                <span>Visit Website</span>
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+                            <div>
+                                <h3>Kaefin</h3>
+                                <p>Café Website</p>
+                            </div>
+
+                            <span class="project-arrow">
+                                <i class="fa-solid fa-arrow-up-right"></i>
+                            </span>
+                        </div>
+                    </a>
+
+
+                    <!-- Eknath Group -->
+                    <a href="https://eknathgroup.com/" target="_blank" rel="noopener noreferrer"
+                        class="project-card reveal">
+                        <div class="project-image">
+                            <img src="https://image.thum.io/get/width/1200/crop/800/https://eknathgroup.com/"
+                                alt="Eknath Group Website">
+
+                            <div class="project-overlay">
+                                <span>Visit Website</span>
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+                            <div>
+                                <h3>Eknath Group</h3>
+                                <p>Real Estate Website</p>
+                            </div>
+
+                            <span class="project-arrow">
+                                <i class="fa-solid fa-arrow-up-right"></i>
+                            </span>
+                        </div>
+                    </a>
+
+                    <!-- ITCloudZilla Project -->
+                    <a href="https://itscloudzilla.com/" class="project-card reveal" target="_blank"
+                        rel="noopener noreferrer">
+                        <div class="project-image">
+                            <img src="https://image.thum.io/get/width/1400/crop/900/https://itscloudzilla.com/"
+                                alt="ITCloudZilla Website Preview" loading="lazy"
+                                onerror="this.src='https://placehold.co/1400x900/111827/ffffff?text=ITCloudZilla';" />
+
+                        </div>
+
+                        <div class="project-content">
+                            <h3>ITCloudZilla</h3>
+                            <p>
+                                A modern technology and cloud-based website designed to showcase
+                                IT services, digital solutions, and business offerings.
+                            </p>
+
+                        </div>
+                    </a>
+
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= TESTIMONIALS ================= -->
+        <section class="section testimonials" id="testimonials">
+            <div class="container">
+
+                <!-- Section Heading -->
+                <div class="testimonial-heading reveal">
+                    <p class="eyebrow">TESTIMONIALS</p>
+
+                    <h2>
+                        What Our <span>Clients Say</span>
+                    </h2>
+
+                    <p class="testimonial-intro">
+                        Real feedback from clients who trusted CodeCraft
+                        to bring their digital ideas to life.
+                    </p>
+                </div>
+
+                <!-- Testimonial Slider -->
+                <div class="testimonial-slider reveal">
+
+                    <!-- Previous Button -->
+                    <button class="slider-btn prev-btn" id="prevBtn" aria-label="Previous testimonial" type="button">
+
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+
+                    <!-- Testimonial Card -->
+                    <div class="testimonial-card">
+
+                        <div class="quote-icon">
+                            <i class="fa-solid fa-quote-left"></i>
+                        </div>
+
+                        <!-- Rating -->
+                        <div class="testimonial-rating" aria-label="5 star rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                        <!-- Testimonial Content -->
+                        <blockquote id="quote">
+                            “CodeCraft delivered exactly what we needed.
+                            The design, development, and support were outstanding.
+                            Highly recommended!”
+                        </blockquote>
+
+                        <!-- Client Details -->
+                        <div class="client-details">
+
+                            <div class="client-avatar" id="clientAvatar">
+                                RS
+                            </div>
+
+                            <div class="client-info">
+                                <h4 id="clientName">
+                                    Rahul Sharma
+                                </h4>
+
+                                <p id="clientRole">
+                                    Business Owner
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Next Button -->
+                    <button class="slider-btn next-btn" id="nextBtn" aria-label="Next testimonial" type="button">
+
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+
+                </div>
+
+                <!-- Slider Dots -->
+                <div class="testimonial-dots" id="testimonialDots">
+                    <button class="dot active" type="button" aria-label="Go to testimonial 1">
+                    </button>
+
+                    <button class="dot" type="button" aria-label="Go to testimonial 2">
+                    </button>
+
+                    <button class="dot" type="button" aria-label="Go to testimonial 3">
+                    </button>
+                </div>
+
+            </div>
+        </section>
+        <!-- ================= CONTACT ================= -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">GET IN TOUCH</p>
+                    <h2>Let's Build Something <span>Amazing</span></h2>
+                    <p>Have an idea or project in mind? Let's discuss your requirements and turn your vision into
+                        reality.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info reveal">
+                        <h3>Let's Talk About Your Project</h3>
+                        <p>Whether you need a modern website, web application, UI/UX design, or a complete digital
+                            solution, CodeCraft is here to help.</p>
+
+                        <div class="contact-details">
+                            <div class="contact-detail-item">
+                                <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div>
+                                    <h4>Email Address</h4>
+                                    <a href="mailto:dineshsaini1722856@gmail.com">dineshsaini1722856@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail-item">
+                                <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                                <div>
+                                    <h4>Phone Number</h4>
+                                    <a href="tel:+919876543210">+91 98765 43210</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail-item">
+                                <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div>
+                                    <h4>Location</h4>
+                                    <p>Jaipur, Rajasthan, India</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-social-links">
+                            <a href="https://linkedin.com/in/dinesh-saini-70393b21b" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://github.com/dineshsaini" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="https://instagram.com/_official_dinesh_saini" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper reveal">
+                        <form class="contact-form" action="#" method="post">
+                            <div class="contact-form-row">
+                                <div class="form-group">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" id="name" name="name" placeholder="Enter your name"
+                                        autocomplete="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" name="email" placeholder="Enter your email"
+                                        autocomplete="email" required>
+                                </div>
+                            </div>
+
+                            <div class="contact-form-row">
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number"
+                                        autocomplete="tel">
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" id="subject" name="subject" placeholder="Enter subject" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="service">Select Service</label>
+                                <select id="service" name="service" required>
+                                    <option value="">Choose a service</option>
+                                    <option value="web-development">Web Development</option>
+                                    <option value="frontend-development">Frontend Development</option>
+                                    <option value="ui-ux-design">UI/UX Design</option>
+                                    <option value="custom-software">Custom Software</option>
+                                    <option value="consultation">Consultation</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" rows="6"
+                                    placeholder="Tell me about your project..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn primary">
+                                Send Message <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <a href="#home" class="brand footer-brand">
+                    <span class="brand-icon">&lt;/&gt;</span>
+                    <span>
+                        <strong>Code<span>Craft</span></strong>
+                        <small>Design · Develop · Deliver</small>
+                    </span>
+                </a>
+
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/dinesh-saini-70393b21b" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://instagram.com/_official_dinesh_saini" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© <span id="year"></span> CodeCraft. All rights reserved. | Built with ♥ by Dinesh Saini</p>
+                <p>Keep Creating. Keep Growing.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
